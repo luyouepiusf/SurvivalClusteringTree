@@ -1,0 +1,24 @@
+useDynLib(SurvivalClusteringTree, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "model.response", "na.omit", "p.adjust", "p.adjust.methods")
+import(survival)
+import(dplyr)
+import(grid)
+import(gridtext)
+import(formula.tools)
+
+export(plot_survival_tree)
+export(predict_distance_forest)
+export(predict_distance_forest_matrix)
+export(predict_distance_tree)
+export(predict_distance_tree_matrix)
+export(predict_weights)
+export(survival_forest)
+export(survival_forest_matrix)
+export(survival_tree)
+export(survival_tree_matrix)
+
+
+## export all regularly named functions
+## (but allow for private functions whose name starts with a dot).name <- function(...)
+## exportPattern("^[[:alpha:]]+")

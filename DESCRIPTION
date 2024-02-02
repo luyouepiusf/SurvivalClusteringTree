@@ -58,4 +58,5 @@ Encoding: UTF-8
 RoxygenNote: 7.1.2
 Imports: Rcpp, survival, dplyr, grid, gridtext, formula.tools
 LinkingTo: Rcpp, RcppArmadillo
+URL: https://github.com/luyouepiusf/SurvivalClusteringTree
 VignetteBuilder: knitr
